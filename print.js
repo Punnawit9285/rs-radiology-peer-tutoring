@@ -12,7 +12,8 @@ const THAI_Q = window.THAI_Q, THAI_CONCEPT = window.THAI_CONCEPT;  /* shared wit
 const S = CVS.sections, LET = 'ABCDEFGH';
 const pages = process.argv[2] && fs.existsSync(process.argv[2]) ? JSON.parse(rd(process.argv[2])) : {};
 const pg = k => pages[k] ? String(pages[k]) : '00';
-const eager = h => String(h).replace(/ loading="lazy"/g, '');
+/* print-sized copies made by tools/pdf.sh in dist/pimg/ (800 px, JPEG 75): the PDF embeds each image once per use */
+const eager = h => String(h).replace(/ loading="lazy"/g, '').replace(/src="img\/([^"]+\.jpg)"/g, 'src="pimg/$1"');
 const isQ = it => it.t === 'q' || it.t === 'tf' || it.t === 'open';
 
 let nQ = 0, nC = 0;

@@ -19,15 +19,18 @@ for box in a[9...] {
     let v = box.split(separator: ","); guard v.count == 5 else { fail("bad box " + box) }
     let x0 = CGFloat(Double(v[0])!) * s, y0 = CGFloat(Double(v[1])!) * s, x1 = CGFloat(Double(v[2])!) * s, y1 = CGFloat(Double(v[3])!) * s
     let r = CGRect(x: x0, y: CGFloat(H) - y1, width: x1 - x0, height: y1 - y0)
-    ctx.setFillColor(CGColor(gray: 1, alpha: 1)); ctx.fill(r)
+    let check = ProcessInfo.processInfo.environment["CHECK"] != nil   // CHECK=1: keep the slide label, put the tag beside it
+    if !check { ctx.setFillColor(CGColor(gray: 1, alpha: 1)); ctx.fill(r) }
     let tag = String(v[4]), fs = min(r.height * 0.62, 30 * s)
     let font = NSFont.monospacedDigitSystemFont(ofSize: fs, weight: .heavy)
     let att: [NSAttributedString.Key: Any] = [.font: font, .foregroundColor: NSColor(calibratedRed: 0.68, green: 0.08, blue: 0.19, alpha: 1)]
     let sz = (tag as NSString).size(withAttributes: att)
-    let pill = CGRect(x: r.midX - sz.width / 2 - fs * 0.45, y: r.midY - sz.height / 2 - fs * 0.08, width: sz.width + fs * 0.9, height: sz.height + fs * 0.16)
+    let cx = check ? r.minX - sz.width / 2 - fs * 0.6 : r.midX
+    let pill = CGRect(x: cx - sz.width / 2 - fs * 0.45, y: r.midY - sz.height / 2 - fs * 0.08, width: sz.width + fs * 0.9, height: sz.height + fs * 0.16)
     ctx.setStrokeColor(CGColor(red: 0.68, green: 0.08, blue: 0.19, alpha: 1)); ctx.setLineWidth(max(1.5, 2 * s))
     ctx.addPath(CGPath(roundedRect: pill, cornerWidth: pill.height / 2, cornerHeight: pill.height / 2, transform: nil)); ctx.strokePath()
-    (tag as NSString).draw(at: CGPoint(x: r.midX - sz.width / 2, y: r.midY - sz.height / 2), withAttributes: att)
+    if check { ctx.setFillColor(CGColor(gray: 1, alpha: 1)); ctx.fill(pill) ; ctx.addPath(CGPath(roundedRect: pill, cornerWidth: pill.height / 2, cornerHeight: pill.height / 2, transform: nil)); ctx.strokePath() }
+    (tag as NSString).draw(at: CGPoint(x: cx - sz.width / 2, y: r.midY - sz.height / 2), withAttributes: att)
 }
 NSGraphicsContext.restoreGraphicsState()
 let img = ctx.makeImage()!

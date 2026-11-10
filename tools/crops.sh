@@ -13,4 +13,5 @@ grep -v '^#' tools/crops.txt | while read -r name pdf page x0 y0 x1 y1 rest; do
   tools/pdfrender crop "src-pdf/$pdf.pdf" "$page" 1440 $(n $x0 1270) $(n $y0 952) $(n $x1 1270) $(n $y1 952) "img/$name.jpg" $masks >/dev/null
 done
 ls img/*.jpg | wc -l
+tools/shrink.sh >/dev/null
 tools/dims.sh

@@ -7,4 +7,5 @@ grep -v '^#' tools/relabel.txt | while read -r name pdf page x0 y0 x1 y1 boxes; 
   [ -n "$name" ] || continue
   tools/relabel "src-pdf/$pdf.pdf" "$page" 1440 "$x0" "$y0" "$x1" "$y1" "img/$name.jpg" $boxes
 done
+tools/shrink.sh >/dev/null
 tools/dims.sh

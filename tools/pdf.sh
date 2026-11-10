@@ -15,6 +15,12 @@ print() {
     --print-to-pdf="$1" "file://$PWD/dist/print.html" 2>/dev/null
 }
 tools/fonts.sh
+# print-sized figure copies for the PDF (dist/pimg/, git-ignored)
+mkdir -p dist/pimg
+for f in img/*.jpg; do
+  o="dist/pimg/${f#img/}"
+  [ "$o" -nt "$f" ] || { cp "$f" "$o"; m=$(sips -g pixelWidth -g pixelHeight "$o" | awk '/pixel/{if($2>m)m=$2} END{print m}'); [ "$m" -gt 800 ] && sips -Z 800 "$o" >/dev/null; sips -s formatOptions 75 "$o" >/dev/null; }
+done
 node print.js
 print "$TMP/pass1.pdf"
 tools/pdftext "$TMP/pass1.pdf" > "$TMP/pass1.txt"

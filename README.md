@@ -8,7 +8,7 @@ Question-first peer-tutoring material for the two RS I radiology lectures: **Rad
 |---|---|
 | **Student deck** (shown in the video) | https://punnawit9285.github.io/rs-radiology-peer-tutoring/student.html |
 | **Tutor deck** (second screen: answers, Thai notes, script) | https://punnawit9285.github.io/rs-radiology-peer-tutoring/tutor.html |
-| **Student handout PDF** | https://punnawit9285.github.io/rs-radiology-peer-tutoring/student.pdf?v=d6d98e0e |
+| **Student handout PDF** | https://punnawit9285.github.io/rs-radiology-peer-tutoring/student.pdf?v=bf85d867 |
 
 Open the student and tutor decks in the same browser and tick *Follow student* in the tutor deck: it jumps to whatever card the student deck shows.
 
@@ -39,11 +39,12 @@ Figures are cropped from the two lecture handouts. Figures marked "labels replac
 ## Building
 
 ```bash
-tools/crops.sh     # crop figures from src-pdf/hn.pdf and src-pdf/rs.pdf (the handouts; not published) into img/
-tools/relabel.sh   # numbered versions of labelled figures for "what is label N?" questions
+tools/crops.sh     # crop figures from src-pdf/hn.pdf and src-pdf/rs.pdf (the handouts; not published) into img/, max 1100 px
+tools/relabel.sh   # numbered versions of labelled figures for "what is label N?" questions (CHECK=1 tools/relabel ... keeps the slide labels beside the numbers, to verify the key)
 node check.js      # IDs, answer keys, every Thai / tutor layer keyed to a real card, blanks, images
 node build.js all  # student.html, index.html, tutor.html, dist/deck.html, dist/notes.html, dist/img/
-tools/pdf.sh       # student.pdf: two headless-Chrome passes for real page numbers (CHROME=... to override)
+tools/pdf.sh       # student.pdf: two headless-Chrome passes for real page numbers (CHROME=... to override);
+                   # it embeds 800 px print copies of the figures (dist/pimg/, not committed)
 ```
 
 Content lives in `data/<section>.js` (cards and questions), `src/thai-data.js` (Thai bullets, key points, section intros; shared by both decks and the PDF), `src/thai-explain.js`, `src/tutor-notes.js` and `src/tutor-script.js`. The engine is adapted from [cvs-peer-tutoring](https://github.com/Punnawit9285/cvs-peer-tutoring).

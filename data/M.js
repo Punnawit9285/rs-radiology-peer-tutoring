@@ -52,7 +52,7 @@ CVS.add({ id: 'M', short: 'Mediastinum & wall', title: 'Hilum, mediastinum, diap
   { t: 'q', id: 'M8', src: 'RS p.51', core: true,
     q: 'On this axial CT with contrast, what is label <b>3</b>?', fig: CVS.fig('rs-midmed-num', 'Axial CT with contrast at two levels, labels replaced by numbers.', 'rs', 51),
     o: ['Superior vena cava', 'Ascending aorta', 'Right pulmonary artery', 'Azygos vein', 'Right main bronchus'], a: 0,
-    ex: 'Label 3 is the round vessel to the right of the ascending aorta (1): the SVC.' },
+    ex: 'Label 3 is the round vessel on the patient’s right (image left) of the ascending aorta (1): the SVC.' },
   { t: 'q', id: 'M9', src: 'RS p.51',
     q: 'What is label <b>2</b>?', fig: CVS.fig('rs-midmed-num', 'Axial CT with contrast at two levels, labels replaced by numbers.', 'rs', 51),
     o: ['Left pulmonary artery', 'Descending aorta', 'Left main bronchus', 'Left pulmonary vein', 'Aortic arch'], a: 0,
