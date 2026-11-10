@@ -1,0 +1,8 @@
+.DS_Store
+src-pdf/
+tools/pdfrender
+tools/pdftext
+tools/qr
+tools/relabel
+dist/print.html
+dist/fonts/
