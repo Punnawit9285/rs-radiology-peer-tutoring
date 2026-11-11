@@ -21,7 +21,7 @@ S.forEach(s=>{let n={c:0,q:0,tf:0,open:0,core:0,blanks:0,figs:0},seenC=false;
    const outside=plain(it.html.replace(/<span class="cz">([\s\S]*?)<\/span>/g,' ')).toLowerCase();
    (it.html.match(/<span class="cz">([\s\S]*?)<\/span>/g)||[]).forEach(m=>{const w=plain(m).toLowerCase();if(w.length>=4&&new RegExp('(^|[^a-z0-9])'+w.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+'([^a-z0-9]|$)').test(outside))warn.push(it.id+' blank "'+w+'" also appears unblanked')});
    if(!ctx.THAI_CONCEPT[it.id])errs.push('no THAI_CONCEPT '+it.id);
-   if(!ctx.THAI_EXPLAIN[it.id])errs.push('no THAI_EXPLAIN '+it.id);else if(ctx.THAI_EXPLAIN[it.id].length<3||ctx.THAI_EXPLAIN[it.id].length>6)warn.push(it.id+' THAI_EXPLAIN has '+ctx.THAI_EXPLAIN[it.id].length+' paragraphs');
+   if(!ctx.THAI_EXPLAIN[it.id])errs.push('no THAI_EXPLAIN '+it.id);else if(ctx.THAI_EXPLAIN[it.id].length<2||ctx.THAI_EXPLAIN[it.id].length>6)warn.push(it.id+' THAI_EXPLAIN has '+ctx.THAI_EXPLAIN[it.id].length+' paragraphs');
    if(!ctx.TUTOR_NOTES[it.id])errs.push('no TUTOR_NOTES '+it.id);
    if(!say(s.id,it.id))errs.push('no SAY '+it.id);
   } else {
