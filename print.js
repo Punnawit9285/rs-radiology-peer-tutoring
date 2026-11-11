@@ -117,7 +117,7 @@ S.forEach(s => {
     const tx = window.THAI_EXPLAIN[it.id] || [];
     const kp = THAI_CONCEPT[it.id] || [];
     h += '<div class="xc"><div class="xch"><b>' + it.id + '</b>' + it.title + ' <span class="muted">· p. ' + pg('k-' + it.id) + '</span></div>' +
-      (kp.length ? '<ul class="xkp">' + kp.map(b => '<li>' + b + '</li>').join('') + '</ul>' : '') + tx.map(p => '<p>' + p + '</p>').join('') + '</div>';
+      (kp.length ? '<ul class="xkp">' + kp.map(b => '<li>' + b + '</li>').join('') + '</ul>' : '') + '<ul class="xtx">' + tx.map(p => '<li>' + p + '</li>').join('') + '</ul></div>';
   });
   h += '</div></section>';
 });

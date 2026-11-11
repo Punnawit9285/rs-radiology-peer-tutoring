@@ -16,12 +16,12 @@ S.forEach(s=>{let n={c:0,q:0,tf:0,open:0,core:0,blanks:0,figs:0},seenC=false;
   if(!want.test(it.id))errs.push('id pattern '+it.id);
   if(it.t==='c'){seenC=true;
    const cz=(it.html.match(/<span class="cz">/g)||[]).length;n.blanks+=cz;tot.blanks+=cz;
-   if(cz<5||cz>15)warn.push(it.id+' has '+cz+' blanks');
+   if(cz<3||cz>8)warn.push(it.id+' has '+cz+' blanks');
    (it.html.match(/<(h[1-6]|th|caption|figcaption)\b[\s\S]*?<\/\1>/g)||[]).forEach(m=>{if(m.includes('class="cz"'))errs.push('blank inside heading/caption '+it.id)});
    const outside=plain(it.html.replace(/<span class="cz">([\s\S]*?)<\/span>/g,' ')).toLowerCase();
    (it.html.match(/<span class="cz">([\s\S]*?)<\/span>/g)||[]).forEach(m=>{const w=plain(m).toLowerCase();if(w.length>=4&&new RegExp('(^|[^a-z0-9])'+w.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+'([^a-z0-9]|$)').test(outside))warn.push(it.id+' blank "'+w+'" also appears unblanked')});
    if(!ctx.THAI_CONCEPT[it.id])errs.push('no THAI_CONCEPT '+it.id);
-   if(!ctx.THAI_EXPLAIN[it.id])errs.push('no THAI_EXPLAIN '+it.id);else if(ctx.THAI_EXPLAIN[it.id].length<4||ctx.THAI_EXPLAIN[it.id].length>7)warn.push(it.id+' THAI_EXPLAIN has '+ctx.THAI_EXPLAIN[it.id].length+' paragraphs');
+   if(!ctx.THAI_EXPLAIN[it.id])errs.push('no THAI_EXPLAIN '+it.id);else if(ctx.THAI_EXPLAIN[it.id].length<3||ctx.THAI_EXPLAIN[it.id].length>6)warn.push(it.id+' THAI_EXPLAIN has '+ctx.THAI_EXPLAIN[it.id].length+' paragraphs');
    if(!ctx.TUTOR_NOTES[it.id])errs.push('no TUTOR_NOTES '+it.id);
    if(!say(s.id,it.id))errs.push('no SAY '+it.id);
   } else {
