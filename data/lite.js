@@ -23,6 +23,7 @@
       }
     }
     blocks.forEach(function (b) {
+      b = b.replace(/<(?![A-Za-z\/!])/g, '&lt;');  /* a bare < (as in "< 80") is text, not a tag */
       var k = b.slice(0, 2), t = b.slice(2);
       if (k === '- ') { if (tb) flush(); (ul = ul || []).push('<li>' + inl(t) + '</li>'); return; }
       if (b[0] === '|') { if (ul) flush(); (tb = tb || []).push(b.replace(/^\|\s*|\s*\|\s*$/g, '').split(/\s*\|\s*/)); return; }
