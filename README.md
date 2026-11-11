@@ -8,7 +8,7 @@ Question-first peer-tutoring material for the two RS I radiology lectures: **Rad
 |---|---|
 | **Student deck** (shown in the video) | https://punnawit9285.github.io/rs-radiology-peer-tutoring/student.html |
 | **Tutor deck** (second screen: answers, Thai notes, script) | https://punnawit9285.github.io/rs-radiology-peer-tutoring/tutor.html |
-| **Student handout PDF** | https://punnawit9285.github.io/rs-radiology-peer-tutoring/student.pdf?v=bf85d867 |
+| **Student handout PDF** | https://punnawit9285.github.io/rs-radiology-peer-tutoring/student.pdf?v=e661da85 |
 
 Open the student and tutor decks in the same browser and tick *Follow student* in the tutor deck: it jumps to whatever card the student deck shows.
 
@@ -26,7 +26,7 @@ Open the student and tutor decks in the same browser and tick *Follow student* i
 | P | Silhouette sign and the pleura | RS 28–31, 33, 39–43 |
 | M | Hilum, mediastinum, diaphragm and chest wall | RS 44–61 |
 
-No past papers were supplied, so every question is written from the slides and tagged with its slide page (e.g. `H&N p.26`, `RS p.31`).
+Questions are written from the slides and tagged with their slide page (e.g. `H&N p.26`, `RS p.31`). The radio-anatomy items of the AC79–AC81 past papers (9 items, tagged `AC79`, `AC80`, `AC81`) sit first after the card they test; their figures are cropped from the recall PDFs.
 
 ## Pages
 

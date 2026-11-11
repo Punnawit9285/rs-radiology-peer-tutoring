@@ -24,7 +24,6 @@ CVS.add({ id: 'A', short: 'Airways & lobes', title: 'Trachea, bronchi, lobes and
     q: 'What is the average length of the adult trachea in the lecture?',
     o: ['12 cm', '5 cm', '20 cm', '25 cm', '2 cm'], a: 0,
     ex: 'About 12 cm (range 10–13 cm).' },
-
   { t: 'c', id: 'A-C2', title: 'Carina and the main bronchi', src: 'RS p.17–20',
     html: '<div class="two"><div class="stack"><ul class="pts"><li>{{Carina}}: the normal carinal angle is about {{60°}} (50–75°).</li>' +
       '<li><b>Right main bronchus</b>: {{shorter}} and more {{vertical}}. It gives off the {{right upper lobar bronchus}} early and continues as the {{bronchus intermedius}}.</li>' +
@@ -52,7 +51,6 @@ CVS.add({ id: 'A', short: 'Airways & lobes', title: 'Trachea, bronchi, lobes and
     q: 'What is the normal carinal angle given in the lecture?',
     o: ['About 60° (50–75°)', 'About 20°', 'About 120°', 'About 180°', 'About 100–130°'], a: 0,
     ex: 'Normal carinal angle: 60°, range 50–75°.' },
-
   { t: 'c', id: 'A-C3', title: 'Lobes and segments, and how they overlap on the PA film', src: 'RS p.22–25',
     html: '<div class="two"><div class="stack"><div class="tblwrap"><table class="tbl"><thead><tr><th></th><th>Right lung</th><th>Left lung</th></tr></thead><tbody>' +
       '<tr><td>Lobes</td><td>{{3}}: upper, middle, lower</td><td>{{2}}: upper, lower</td></tr>' +
@@ -74,7 +72,6 @@ CVS.add({ id: 'A', short: 'Airways & lobes', title: 'Trachea, bronchi, lobes and
   { t: 'tf', id: 'A12', src: 'RS p.23', core: true,
     q: 'On the lateral film, the right middle lobe is an anterior, inferior wedge between the minor and major fissures.', a: true,
     ex: 'True: the minor fissure is its upper border and the major fissure its posterior border.' },
-
   { t: 'c', id: 'A-C4', title: 'Lobes on coronal and sagittal CT', src: 'RS p.26–27',
     html: '<div class="scanrow">' + CVS.fig('rs-lobes-ct-right', 'Right lobes on coronal and sagittal CT, lung window.', 'rs', 26) + CVS.fig('rs-lobes-ct-left', 'Left lobes on coronal and sagittal CT, lung window.', 'rs', 27) + '</div>' +
       '<ul class="pts"><li>Sagittal right: {{RUL}} on top, {{RML}} as the front wedge down to the front of the diaphragm, {{RLL}} filling the back and the whole back of the base.</li>' +
@@ -89,7 +86,6 @@ CVS.add({ id: 'A', short: 'Airways & lobes', title: 'Trachea, bronchi, lobes and
     q: 'On coronal CT, which right lobe lies against the right heart border?',
     o: ['Right middle lobe', 'Right upper lobe', 'Right lower lobe', 'None: the heart border touches only pleura', 'Azygos lobe'], a: 0,
     ex: 'The RML is anterior and medial, against the right heart border. This is why RML disease blurs that border.' },
-
   { t: 'c', id: 'A-C5', title: 'Fissures', src: 'RS p.33–38',
     html: '<div class="tblwrap"><table class="tbl"><thead><tr><th>Fissure</th><th>Separates</th><th>Seen on</th></tr></thead><tbody>' +
       '<tr><td><b>Right major (oblique)</b></td><td>{{RUL and RML}} in front from {{RLL}} behind</td><td>Lateral film; CT</td></tr>' +

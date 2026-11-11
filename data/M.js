@@ -15,7 +15,6 @@ CVS.add({ id: 'M', short: 'Mediastinum & wall', title: 'Hilum, mediastinum, diap
   { t: 'tf', id: 'M2', src: 'RS p.45', core: true,
     q: 'Normally the left hilum is higher than the right.', a: true,
     ex: 'True: the left pulmonary artery arches over the left main bronchus, so the left hilum sits higher.' },
-
   { t: 'c', id: 'M-C2', title: 'The mediastinum: borders and the plane of Ludwig', src: 'RS p.47',
     html: '<div class="two"><div class="stack"><ul class="pts"><li>The space between the two lungs and their {{pleural spaces}}.</li>' +
       '<li>From the {{sternum}} in front to the {{thoracic spine}} behind, and from the {{thoracic inlet}} above to the {{diaphragm}} below.</li>' +
@@ -29,7 +28,6 @@ CVS.add({ id: 'M', short: 'Mediastinum & wall', title: 'Hilum, mediastinum, diap
     q: 'Which pair gives the front-to-back limits of the mediastinum?',
     o: ['Sternum and thoracic spine', 'Ribs and scapulae', 'Heart and esophagus', 'Pericardium and trachea', 'Clavicles and diaphragm'], a: 0,
     ex: 'Front to back: sternum to thoracic spine. Top to bottom: thoracic inlet to diaphragm.' },
-
   { t: 'c', id: 'M-C3', title: 'Mediastinal compartments (modified anatomic scheme)', src: 'RS p.48–52',
     html: '<div class="tblwrap"><table class="tbl"><thead><tr><th>Compartment</th><th>Boundaries</th><th>Contents</th></tr></thead><tbody>' +
       '<tr><td><b>Anterior</b></td><td>From the {{sternum}} back to the pericardium, aorta and brachiocephalic vessels (in front of the {{pericardium, ascending aorta and SVC}})</td><td>{{Thymus}}, lymph nodes, adipose tissue, internal mammary vessels</td></tr>' +
@@ -60,7 +58,6 @@ CVS.add({ id: 'M', short: 'Mediastinum & wall', title: 'Hilum, mediastinum, diap
   { t: 'tf', id: 'M10', src: 'RS p.50', core: true,
     q: 'In the modified scheme, the back border of the middle mediastinum is the pericardium and the posterior tracheal wall.', a: true,
     ex: 'True. Behind that line is the posterior mediastinum.' },
-
   { t: 'c', id: 'M-C4', title: 'Mediastinal masses by compartment', src: 'RS p.53',
     html: '<div class="cols3"><div class="mini art"><h4>Anterior</h4><ul><li>Prevascular: lymphadenopathy, {{retrosternal goiter}}, {{thymic lesions}} (thymoma, carcinoma, hyperplasia, cysts, thymolipoma), {{germ cell tumor}}</li><li>Precardiac, on the diaphragm: epicardial fat pad, diaphragmatic hump, Morgagni hernia, pleuropericardial cyst*, node enlargement</li><li>Rare: lymphatic malformations, hemangiomas</li></ul></div>' +
       '<div class="mini"><h4>Middle</h4><ul><li>Lymphadenopathy</li><li>{{Aortic arch aneurysm}}</li><li>{{Enlarged pulmonary artery}}</li><li>Foregut duplication cysts (bronchogenic, esophageal, neurenteric)</li><li>{{Pericardial cyst}}</li><li>Tracheal lesions</li></ul></div>' +
@@ -79,7 +76,10 @@ CVS.add({ id: 'M', short: 'Mediastinum & wall', title: 'Hilum, mediastinum, diap
     q: 'Which lesion is on the <b>middle</b> mediastinal list?',
     o: ['Enlarged pulmonary artery', 'Thymoma', 'Neurogenic tumor', 'Hiatal hernia', 'Retrosternal goiter'], a: 0,
     ex: 'Middle: nodes, aortic arch aneurysm, enlarged pulmonary artery, foregut duplication cysts, pericardial cyst, tracheal lesions.' },
-
+  { t: 'q', id: 'M14', src: 'AC79', core: true, keep: true,
+    q: 'A 45-year-old man presents with sudden chest pain. PA and lateral chest radiographs reveal a lesion in posterior mediastinum. Which of the following structures does the lesion most likely originate from?',
+    o: ['Aortic arch', 'Aortic lymph node', 'Thyroid gland', 'Pulmonary trunk', 'Descending aorta'], a: 4,
+    ex: 'The posterior compartment contains the descending aorta, and a descending aortic aneurysm is on the posterior list. The arch and pulmonary trunk are middle; a retrosternal goiter is anterior.' },
   { t: 'c', id: 'M-C5', title: 'The diaphragm and its openings', src: 'RS p.55–58',
     html: '<div class="two"><div class="stack"><ul class="pts"><li>Separates the thorax from the abdomen.</li><li>The right hemidiaphragm is usually {{1–1.5 cm higher}} than the left.</li></ul>' +
       '<div class="tblwrap"><table class="tbl"><thead><tr><th>Opening</th><th>Level</th><th>Passes through</th></tr></thead><tbody>' +
@@ -88,26 +88,25 @@ CVS.add({ id: 'M', short: 'Mediastinum & wall', title: 'Hilum, mediastinum, diap
       '<tr><td>Aortic</td><td class="num">{{T12}}</td><td>Aorta, {{thoracic duct}}, azygos vein</td></tr></tbody></table></div>' +
       '<p class="note"><b>Hiatal hernia</b>: abdominal contents herniate through the {{esophageal hiatus}} into the thorax. On CXR it shows as a retrocardiac mass, sometimes with air in it (arrows).</p></div>' +
       '<div class="stack">' + CVS.fig('rs-diaphragm-xr', 'The two hemidiaphragms traced on PA and lateral films.', 'rs', 56) + CVS.fig('rs-hiatal', 'Hiatal hernia: drawing and chest film.', 'rs', 58) + '</div></div>' },
-  { t: 'q', id: 'M14', src: 'RS p.55', core: true,
+  { t: 'q', id: 'M15', src: 'RS p.55', core: true,
     q: 'Which diaphragmatic opening lies at <b>T8</b>?',
     o: ['Caval opening (IVC)', 'Esophageal opening', 'Aortic opening', 'Morgagni foramen', 'Bochdalek foramen'], a: 0,
     ex: 'T8 caval (IVC, right phrenic), T10 esophageal (esophagus, left gastric vessels, vagus), T12 aortic (aorta, thoracic duct, azygos).' },
-  { t: 'q', id: 'M15', src: 'RS p.55',
+  { t: 'q', id: 'M16', src: 'RS p.55',
     q: 'The thoracic duct passes through the:',
     o: ['Aortic opening at T12', 'Caval opening at T8', 'Esophageal opening at T10', 'Central tendon at T6', 'Sternocostal gap'], a: 0,
     ex: 'Aortic opening (T12): aorta, thoracic duct, azygos vein.' },
-  { t: 'q', id: 'M16', src: 'RS p.55',
+  { t: 'q', id: 'M17', src: 'RS p.55',
     q: 'Which structures pass with the esophagus through the opening at T10?',
     o: ['Left gastric artery and vein, and the vagus', 'IVC and right phrenic nerve', 'Aorta and thoracic duct', 'Azygos vein and thoracic duct', 'Right gastric artery and phrenic nerve'], a: 0,
     ex: 'Esophageal opening: esophagus, left gastric artery and vein, vagus.' },
-  { t: 'tf', id: 'M17', src: 'RS p.55',
+  { t: 'tf', id: 'M18', src: 'RS p.55',
     q: 'The left hemidiaphragm is usually 1–1.5 cm higher than the right.', a: false,
     ex: 'False. The right hemidiaphragm is usually 1–1.5 cm higher; the liver lies under it.' },
-  { t: 'q', id: 'M18', src: 'RS p.58', core: true,
+  { t: 'q', id: 'M19', src: 'RS p.58', core: true,
     q: 'An elderly woman has reflux. What is the retrocardiac opacity (arrows)?', fig: CVS.fig('rs-hiatal-q', 'PA chest film.', 'rs', 58),
     o: ['Hiatal hernia', 'Right middle lobe pneumonia', 'Right pleural effusion', 'Pneumothorax', 'Pleural plaque'], a: 0,
     ex: 'A rounded density behind the heart, through the esophageal hiatus: hiatal hernia (a posterior mediastinal mass on the lecture list).' },
-
   { t: 'c', id: 'M-C6', title: 'The chest wall', src: 'RS p.59–61',
     html: '<div class="two"><div class="stack"><ul class="pts"><li>Ribs, the intercostal spaces, the sternum and the vertebrae.</li>' +
       '<li>Each intercostal space has three muscle layers: {{external}}, {{internal}} and {{innermost}} intercostal.</li>' +
@@ -115,15 +114,15 @@ CVS.add({ id: 'M', short: 'Mediastinum & wall', title: 'Hilum, mediastinum, diap
       '<li>Sternum from top to bottom: {{manubrium}} → {{body}} → {{xiphoid process}}.</li>' +
       '<li>On the lateral film the sternum is in front and the {{thoracic spine}} behind; on PA the ribs curve over the lung fields.</li></ul></div>' +
       '<div class="stack">' + CVS.fig('rs-chestwall-xr', 'Chest wall bones on PA and lateral films.', 'rs', 60) + CVS.fig('rs-sternum-ct', 'Sagittal CT with contrast through the sternum.', 'rs', 61) + '</div></div>' },
-  { t: 'q', id: 'M19', src: 'RS p.59',
+  { t: 'q', id: 'M20', src: 'RS p.59',
     q: 'From top to bottom, the intercostal neurovascular bundle is:',
     o: ['Vein, artery, nerve', 'Nerve, artery, vein', 'Artery, vein, nerve', 'Vein, nerve, artery', 'Artery, nerve, vein'], a: 0,
     ex: 'V-A-N from top to bottom, sheltered under the rib.' },
-  { t: 'q', id: 'M20', src: 'RS p.61',
+  { t: 'q', id: 'M21', src: 'RS p.61',
     q: 'The parts of the sternum from top to bottom are:',
     o: ['Manubrium, body, xiphoid process', 'Body, manubrium, xiphoid process', 'Xiphoid process, body, manubrium', 'Manubrium, xiphoid process, body', 'Body, xiphoid process, manubrium'], a: 0,
     ex: 'Manubrium sterni on top, then the body, then the xiphoid process.' },
-  { t: 'tf', id: 'M21', src: 'RS p.59',
+  { t: 'tf', id: 'M22', src: 'RS p.59',
     q: 'The external intercostal is the deepest of the three muscle layers in an intercostal space.', a: false,
     ex: 'False. From outside in: external, internal, innermost; the innermost is the deepest.' }
 ]});

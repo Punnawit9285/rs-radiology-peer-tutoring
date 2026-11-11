@@ -20,7 +20,6 @@ CVS.add({ id: 'N', short: 'Ear, nose, sinuses', title: 'Temporal bone, nasal cav
   { t: 'tf', id: 'N3', src: 'H&N p.39',
     q: '“Petrous” means stone-like, which fits the dense pyramid of bone that houses the inner ear.', a: true,
     ex: 'True: Latin <i>petrosus</i> = stone-like.' },
-
   { t: 'c', id: 'N-C2', title: 'Temporal bone on axial CT', src: 'H&N p.40',
     html: CVS.fig('hn-temporal-ct', 'Axial CT of the temporal bone at two levels.', 'hn', 40) +
       '<ul class="pts"><li>Read along the hearing path, lateral to medial: {{external auditory canal}} → {{middle ear}} (the {{malleus}} sits in it) → inner ear, with the {{cochlea}} in front and the {{semicircular canal}} behind.</li>' +
@@ -47,7 +46,6 @@ CVS.add({ id: 'N', short: 'Ear, nose, sinuses', title: 'Temporal bone, nasal cav
     q: 'What is label <b>4</b>?', fig: CVS.fig('hn-temporal-num', 'Axial CT of the temporal bone, labels replaced by numbers.', 'hn', 40),
     o: ['External auditory canal', 'Internal auditory canal', 'Eustachian tube', 'Middle ear', 'Mastoid antrum'], a: 0,
     ex: 'Label 4 points to the air-filled canal on the lateral side leading in toward the middle ear: the external auditory canal.' },
-
   { t: 'c', id: 'N-C3', title: 'The nasal cavity', src: 'H&N p.42–43',
     html: '<div class="two"><div class="stack"><ul class="pts"><li>Extends from the {{palate}} (floor) to the {{skull base}} (roof).</li>' +
       '<li>Divided into two halves by the {{nasal septum}}.</li>' +
@@ -67,7 +65,6 @@ CVS.add({ id: 'N', short: 'Ear, nose, sinuses', title: 'Temporal bone, nasal cav
     q: 'On Caldwell’s view, the soft-tissue bulge from the lateral wall into each nasal cavity is the:',
     o: ['Inferior nasal concha', 'Nasal septum', 'Ethmoidal bulla', 'Maxillary sinus', 'Vomer'], a: 0,
     ex: 'The inferior nasal concha is the largest turbinate and is labelled on Caldwell’s view (p.43).' },
-
   { t: 'c', id: 'N-C4', title: 'Paranasal sinuses on plain films', src: 'H&N p.26, 44',
     html: CVS.fig('hn-sinus-xr', 'Sinuses labelled on two frontal skull views.', 'hn', 44) +
       '<div class="tblwrap"><table class="tbl"><thead><tr><th>Sinus</th><th>Where on the film</th><th>Plain view in the lecture</th></tr></thead><tbody>' +
@@ -87,7 +84,6 @@ CVS.add({ id: 'N', short: 'Ear, nose, sinuses', title: 'Temporal bone, nasal cav
   { t: 'tf', id: 'N14', src: 'H&N p.26, 44',
     q: 'The sphenoid sinus is best seen on a frontal (Caldwell) view.', a: false,
     ex: 'False. It sits under the sella in the middle of the skull and is shown on the lateral film (and on CT).' },
-
   { t: 'c', id: 'N-C5', title: 'The ostiomeatal unit on coronal CT', src: 'H&N p.45',
     html: '<div class="two">' + CVS.fig('hn-omu', 'Coronal CT of the sinuses, bone window, with labels.', 'hn', 45, 'tall') +
       '<div class="stack"><ul class="pts"><li>Coronal CT in a bone window is the plane for the sinus drainage paths.</li>' +
@@ -114,21 +110,26 @@ CVS.add({ id: 'N', short: 'Ear, nose, sinuses', title: 'Temporal bone, nasal cav
   { t: 'open', id: 'N19', src: 'H&N p.45',
     q: 'Mucosal swelling blocks the ostiomeatal unit. Which sinuses may become obstructed, and why that combination?',
     ans: 'The frontal, anterior ethmoidal and maxillary sinuses, because all three drain through the OMU into the middle meatus. One small channel serves three sinuses, so a single block can cause disease in all of them; the posterior ethmoid and sphenoid sinuses drain elsewhere and are spared.' },
-
+  { t: 'q', id: 'N20', src: 'AC79', core: true, keep: true,
+    q: 'A patient comes to the doctor with fever, headache, runny nose and sneezing for the past week. The doctor performs nasal cavity radiography and reveals opacification of the structure labelled with an asterisk. (The X-ray shown is from a normal person without abnormalities.) Which structure might be obstructed in this patient?',
+    fig: CVS.fig('ac79-skullsinus', 'AC79: frontal skull film; the asterisks mark the opacified structure (the film shown is a normal one).', 'ac79', 6),
+    o: ['Superior nasal meatus', 'Inferior nasal meatus', 'Hiatus semilunaris', 'Ethmoidal bulla', 'Sphenoethmoidal recess'], a: 2,
+    ex: 'The asterisks sit on the frontal sinuses above the orbits. The frontal sinus drains through the ostiomeatal unit into the hiatus semilunaris of the middle meatus, so a block there leaves it full of fluid.',
+    flag: 'PS81 edit keys C (hiatus semilunaris).' },
   { t: 'c', id: 'N-C6', title: 'Sinuses on axial and sagittal CT', src: 'H&N p.46–47',
     html: CVS.fig('hn-sinus-axial', 'Axial CT at three levels, bone window, with labels.', 'hn', 46) +
       '<div class="two"><div class="stack"><ul class="pts"><li>Axial, top to bottom: the {{frontal sinus}} in the frontal bone above the orbits → the {{ethmoid sinus}} cells between the orbits, with the {{sphenoid sinus}} behind them in the midline → the {{maxillary sinuses}} at the lowest level, either side of the nasal cavity.</li>' +
       '<li>Sagittal: the front one sits high in the frontal bone; the back one fills the sphenoid body, under the {{sella turcica}} and above the {{nasopharynx}}.</li></ul></div>' +
       CVS.fig('hn-sinus-sag', 'Sagittal CT, bone window, with labels.', 'hn', 47) + '</div>' },
-  { t: 'q', id: 'N20', src: 'H&N p.46', core: true,
+  { t: 'q', id: 'N21', src: 'H&N p.46', core: true,
     q: 'On axial CT, which sinus lies in the midline directly <b>behind</b> the ethmoid air cells?',
     o: ['Sphenoid sinus', 'Frontal sinus', 'Maxillary sinus', 'Mastoid antrum', 'Nasopharynx'], a: 0,
     ex: 'At the ethmoid level, the sphenoid sinus is the midline air space behind the ethmoid cells.' },
-  { t: 'q', id: 'N21', src: 'H&N p.46',
+  { t: 'q', id: 'N22', src: 'H&N p.46',
     q: 'On the lowest axial slice through the face, the large air spaces on either side of the nasal cavity are the:',
     o: ['Maxillary sinuses', 'Ethmoid sinuses', 'Sphenoid sinuses', 'Frontal sinuses', 'Mastoid air cells'], a: 0,
     ex: 'The maxillary sinuses are the lowest and largest, beside the nasal cavity.' },
-  { t: 'tf', id: 'N22', src: 'H&N p.47', core: true,
+  { t: 'tf', id: 'N23', src: 'H&N p.47', core: true,
     q: 'On sagittal CT, the sphenoid sinus lies below the sella turcica and above the nasopharynx.', a: true,
     ex: 'True. The sphenoid sinus fills the sphenoid body, between the pituitary fossa above and the nasopharynx below.' }
 ]});

@@ -83,3 +83,4 @@ rs-hiatal-q rs 58 708 348 1235 890
 rs-chestwall-xr rs 60 70 240 1192 885
 rs-sternum-ct rs 61 450 225 1085 870
 rs-windows-img rs 7 335 92 728 938
+# ac79-*, ac80-*: past-paper figures, cropped from the AC79/AC80 recall PDFs by rs-peer-tutoring/tools/crops.sh (not regenerated here)

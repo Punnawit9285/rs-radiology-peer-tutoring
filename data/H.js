@@ -23,7 +23,6 @@ CVS.add({ id: 'H', short: 'H&N imaging', title: 'Imaging modalities of the head 
   { t: 'open', id: 'H4', src: 'H&N p.5–6',
     q: 'Why is a skull radiograph harder to read than a CT of the same head?',
     ans: 'A radiograph is a two-dimensional projection: every bone along the beam is superimposed, so the skull gives multiple overlapping lines and interfaces. CT is cross-sectional, so each slice shows structures without superimposition and can be reformatted in any plane.' },
-
   { t: 'c', id: 'H-C2', title: 'Angled skull views: Caldwell, Towne, Waters', src: 'H&N p.7–11',
     html: '<div class="tblwrap"><table class="tbl"><thead><tr><th>View</th><th>Beam and position (slides)</th><th>Shows best</th></tr></thead><tbody>' +
       '<tr><td><b>Skull AP</b></td><td>Straight frontal projection</td><td>Overview of vault and face</td></tr>' +
@@ -56,7 +55,6 @@ CVS.add({ id: 'H', short: 'H&N imaging', title: 'Imaging modalities of the head 
     q: 'Which view is this?', fig: CVS.fig('hn-caldwell-xr', 'Frontal skull radiograph.', 'hn', 9),
     o: ['Caldwell’s view', 'Towne’s view', 'Waters’ view', 'Skull lateral', 'Occipitofrontal view of the orbit only'], a: 0,
     ex: 'A frontal view with the orbits and frontal sinus in the upper face, the chin not raised and no foramen-magnum view: Caldwell’s view (beam 15°).' },
-
   { t: 'c', id: 'H-C3', title: 'CT: cross-sections, and what it does best', src: 'H&N p.12–14',
     html: '<div class="two"><div class="stack"><ul class="pts"><li>Improves {{spatial resolution}}: {{cross-sectional}} images, so structures no longer hide behind each other.</li>' +
       '<li>{{Contrast media}} improve the demonstration of vascularity and blood vessels.</li>' +
@@ -81,7 +79,6 @@ CVS.add({ id: 'H', short: 'H&N imaging', title: 'Imaging modalities of the head 
     q: 'A 25-year-old is hit in the eye by a squash ball. You want to see the <b>bony walls</b> of the orbit. Which study fits the lecture best?',
     o: ['CT, bone window', 'MRI', 'Towne’s view', 'Skull lateral', 'MRI with flow sequences'], a: 0,
     ex: 'CT is the primary modality for the bony orbit and shows thin walls such as the floor and lamina papyracea. MRI is chosen for soft tissue and the optic pathway, not for fine bone.' },
-
   { t: 'c', id: 'H-C4', title: 'Reading CT: windows, MPR and VRT', src: 'H&N p.15–18',
     html: '<div class="tblwrap"><table class="tbl"><thead><tr><th>Tool</th><th>What it does</th></tr></thead><tbody>' +
       '<tr><td><b>Windowing</b> (grey-level mapping)</td><td>Chooses which range of CT numbers is spread across the grey scale. In a <b>{{soft tissue window}}</b> brain, muscle and fat are separated and bone is plain white. In a <b>{{bone window}}</b> soft tissue looks flat grey but cortex, trabeculae and air cells show.</td></tr>' +
@@ -107,7 +104,6 @@ CVS.add({ id: 'H', short: 'H&N imaging', title: 'Imaging modalities of the head 
   { t: 'open', id: 'H19', src: 'H&N p.16',
     q: 'On one head CT you need to judge both the brain and the fracture lines in the skull. What do you change, and why does it work?',
     ans: 'Change the window. The same CT data are viewed in a soft tissue (brain) window to judge the brain and in a bone window to see the fracture lines; each window spreads a different range of CT numbers over the grey scale.' },
-
   { t: 'c', id: 'H-C5', title: 'MRI: soft tissue without radiation', src: 'H&N p.19–21',
     html: '<div class="two"><div class="stack"><ul class="pts"><li>Uses a strong {{magnetic field}}, magnetic gradients and {{radiofrequency}} waves: {{no ionizing radiation}}.</li>' +
       '<li>Excellent {{soft-tissue characterization}}.</li><li>Preferred for the {{optic pathway}} and the soft tissue of the face and neck.</li></ul></div>' +
@@ -129,7 +125,6 @@ CVS.add({ id: 'H', short: 'H&N imaging', title: 'Imaging modalities of the head 
     q: 'Which is a disadvantage of MRI listed in the lecture?',
     o: ['Long scanning time', 'High radiation dose', 'Two-dimensional images only', 'Poor soft-tissue contrast', 'Not multiplanar'], a: 0,
     ex: 'MRI: high cost, long scanning time, contraindications (pacemaker, ear implant, claustrophobia). Radiation belongs to CT; MRI is multiplanar with excellent soft-tissue contrast.' },
-
   { t: 'c', id: 'H-C6', title: 'Choosing the modality for the question', src: 'H&N p.5–21',
     html: '<div class="tblwrap"><table class="tbl"><thead><tr><th>Clinical question</th><th>First choice in the lecture</th><th>Why</th></tr></thead><tbody>' +
       '<tr><td>Simple skull fracture, foreign body</td><td>{{Plain film}} can help</td><td>Cheap, available, low dose</td></tr>' +

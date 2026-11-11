@@ -22,7 +22,6 @@ CVS.add({ id: 'S', short: 'Skull', title: 'The skull on radiographs', kind: 'Lec
   { t: 'tf', id: 'S4', src: 'H&N p.7',
     q: 'The middle nasal concha is part of the maxilla.', a: false,
     ex: 'False. On the Netter figure the middle nasal concha is labelled under the ethmoidal bone.' },
-
   { t: 'c', id: 'S-C2', title: 'Skull AP radiograph: landmarks', src: 'H&N p.25',
     html: '<div class="two">' + CVS.fig('hn-skull-ap', 'Skull AP radiograph with labels.', 'hn', 25, 'tall') +
       '<div class="stack"><ul class="pts"><li>Midline, top down: the {{crista galli}} between the orbits, the {{nasal septum}} below it, the mandible at the bottom.</li>' +
@@ -47,7 +46,6 @@ CVS.add({ id: 'S', short: 'Skull', title: 'The skull on radiographs', kind: 'Lec
     q: 'Label <b>6</b> is the oblique dotted line inside the orbit. What is it?', fig: CVS.fig('hn-skull-ap-num', 'Skull AP radiograph, labels replaced by numbers.', 'hn', 25),
     o: ['Greater wing of sphenoid', 'Lesser wing of sphenoid', 'Lamina papyracea', 'Zygomatic arch', 'Nasal septum'], a: 0,
     ex: 'The greater wing of sphenoid forms the oblique line in the orbit on the AP film (and the lateral orbital wall).' },
-
   { t: 'c', id: 'S-C3', title: 'Skull lateral radiograph: landmarks', src: 'H&N p.26',
     html: '<div class="two">' + CVS.fig('hn-skull-lat', 'Skull lateral radiograph with labels.', 'hn', 26, 'tall') +
       '<div class="stack"><ul class="pts"><li>Vault: {{frontal}} in front, {{parietal}} on top, {{occipital}} at the back.</li>' +
@@ -78,7 +76,6 @@ CVS.add({ id: 'S', short: 'Skull', title: 'The skull on radiographs', kind: 'Lec
   { t: 'tf', id: 'S14', src: 'H&N p.26–27', core: true,
     q: 'The clivus runs from the back of the sella turcica down and back toward the foramen magnum.', a: true,
     ex: 'True. The clivus continues from the dorsum sellae down the back of the sphenoid and basi-occiput.' },
-
   { t: 'c', id: 'S-C4', title: 'The sella turcica region', src: 'H&N p.27',
     html: '<div class="two">' + CVS.fig('hn-sella', 'Close-up of the central skull base on a lateral skull film.', 'hn', 27) +
       '<div class="stack"><ul class="pts"><li>The {{sella turcica}} is the saddle-shaped pit in the sphenoid body (the pituitary fossa).</li>' +

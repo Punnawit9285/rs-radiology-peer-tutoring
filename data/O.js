@@ -23,7 +23,6 @@ CVS.add({ id: 'O', short: 'Orbit', title: 'The orbit', kind: 'Lecture',
   { t: 'tf', id: 'O3', src: 'H&N p.29',
     q: 'The orbit runs from the eyelids posteromedially to an apex that lies anterolaterally.', a: false,
     ex: 'False, it is reversed: from the eyelids anterolaterally to the apex posteromedially.' },
-
   { t: 'c', id: 'O-C2', title: 'Seven bones, four walls and an apex', src: 'H&N p.30–32',
     html: '<div class="two"><div class="tblwrap"><table class="tbl"><thead><tr><th>Wall</th><th>Mainly</th><th>With</th></tr></thead><tbody>' +
       '<tr><td><b>Roof</b> (superior)</td><td>Orbital part of the {{frontal bone}}</td><td>The smaller sphenoid wing</td></tr>' +
@@ -53,7 +52,6 @@ CVS.add({ id: 'O', short: 'Orbit', title: 'The orbit', kind: 'Lecture',
     q: 'Which bone is <b>NOT</b> one of the seven bones of the orbit?',
     o: ['Temporal', 'Palatine', 'Lacrimal', 'Ethmoid', 'Zygomatic'], a: 0,
     ex: 'The seven: frontal, zygomatic, maxillary, ethmoid, lacrimal, sphenoid, palatine. The temporal bone is not part of the orbit.' },
-
   { t: 'c', id: 'O-C3', title: 'Weak walls and the blow-out fracture', src: 'H&N p.31',
     html: '<div class="two"><div class="stack"><ul class="pts"><li>The medial wall is paper-thin: its name, {{lamina papyracea}}, means “paper layer”.</li>' +
       '<li>A ball bigger than the orbital rim pushes the globe back and raises the {{pressure inside the orbit}}.</li>' +
@@ -72,7 +70,6 @@ CVS.add({ id: 'O', short: 'Orbit', title: 'The orbit', kind: 'Lecture',
   { t: 'open', id: 'O11', src: 'H&N p.31',
     q: 'Explain, step by step, how a ball larger than the orbital rim produces a blow-out fracture.',
     ans: 'The rim stops the ball, but the globe is pushed backward, so the pressure inside the orbit rises. The force escapes through the weakest wall: the thin floor breaks downward into the maxillary antrum, and orbital fat and the inferior rectus (with the inferior oblique) can herniate or be trapped in the gap.' },
-
   { t: 'c', id: 'O-C4', title: 'The orbit on an occipitofrontal radiograph', src: 'H&N p.33',
     html: CVS.fig('hn-orbit-of', 'Occipitofrontal radiograph of both orbits with labels.', 'hn', 33) +
       '<ul class="pts"><li>The rim: {{superior orbital margin}} above, {{inferior orbital margin}} below.</li>' +
@@ -85,7 +82,6 @@ CVS.add({ id: 'O', short: 'Orbit', title: 'The orbit', kind: 'Lecture',
   { t: 'tf', id: 'O13', src: 'H&N p.33',
     q: 'The ethmoid air cells lie medial to the lamina papyracea, between the orbit and the nasal cavity.', a: true,
     ex: 'True. The lamina papyracea is the orbital (lateral) wall of the ethmoid labyrinth.' },
-
   { t: 'c', id: 'O-C5', title: 'The orbit on axial CT', src: 'H&N p.34',
     html: CVS.fig('hn-orbit-axial', 'Axial CT at three levels: soft tissue window above, bone window below.', 'hn', 34) +
       '<div class="cols3"><div class="mini"><h4>Upper slice</h4><ul><li>{{Levator palpebrae superioris & superior rectus}} on top of the globe</li><li>{{Superior oblique}} along the upper medial wall</li><li>{{Lacrimal gland}} at the front, upper lateral</li><li>Behind: the {{superior orbital fissure}} beside the greater wing</li></ul></div>' +
@@ -107,7 +103,6 @@ CVS.add({ id: 'O', short: 'Orbit', title: 'The orbit', kind: 'Lecture',
     q: 'The optic nerve leaves the orbit through the:',
     o: ['Optic canal', 'Superior orbital fissure', 'Inferior orbital fissure', 'Nasolacrimal canal', 'Infraorbital foramen'], a: 0,
     ex: 'The optic nerve sheath complex runs to the apex and passes through the optic canal in the lesser wing of sphenoid.' },
-
   { t: 'c', id: 'O-C6', title: 'The orbit in the coronal plane: CT and MRI', src: 'H&N p.35–37',
     html: '<div class="two">' + CVS.fig('hn-orbit-cor1', 'Coronal CT through the globes, soft tissue window.', 'hn', 35) + CVS.fig('hn-orbit-mri2', 'Coronal T2-weighted MRI behind the globe.', 'hn', 37) + '</div>' +
       '<ul class="pts"><li>At the globe: the {{lacrimal gland}} superolateral; the recti hug the globe.</li>' +

@@ -20,7 +20,6 @@ CVS.add({ id: 'L', short: 'Pharynx & larynx', title: 'Pharynx and larynx', kind:
   { t: 'tf', id: 'L3', src: 'H&N p.50',
     q: 'The nasopharynx extends from the skull base down to the soft palate.', a: true,
     ex: 'True. It sits behind the nasal cavity and ends at the soft palate.' },
-
   { t: 'c', id: 'L-C2', title: 'Nasopharynx: Eustachian tube, torus and Rosenmüller fossa', src: 'H&N p.50–51',
     html: '<div class="two"><div class="stack"><ul class="pts"><li>Lies behind the {{nasal cavity}}, from the skull base down to the {{soft palate}}.</li>' +
       '<li>A channel for {{air and secretions}} coming back from the nose.</li>' +
@@ -44,7 +43,6 @@ CVS.add({ id: 'L', short: 'Pharynx & larynx', title: 'Pharynx and larynx', kind:
     q: 'Along the lateral wall of the nasopharynx, from front to back, the order is:',
     o: ['Eustachian tube opening → torus tubarius → fossa of Rosenmüller', 'Torus tubarius → Eustachian tube opening → fossa of Rosenmüller', 'Fossa of Rosenmüller → torus tubarius → Eustachian tube opening', 'Eustachian tube opening → fossa of Rosenmüller → torus tubarius', 'Pterygoid plate → fossa of Rosenmüller → torus tubarius'], a: 0,
     ex: 'Opening, then the cartilage bump behind it (torus), then the recess behind the bump (Rosenmüller fossa).' },
-
   { t: 'c', id: 'L-C3', title: 'Oropharynx and hypopharynx', src: 'H&N p.52–53',
     html: '<div class="cols2"><div class="mini"><h4>Oropharynx</h4><ul><li>Continuation of the {{oral cavity}} and the nasopharynx</li><li>From the soft palate to the {{valleculae}} (tongue base), at the level of the {{hyoid bone}}</li><li>Each vallecula is the pocket between the {{base of tongue}} and the epiglottis</li></ul></div>' +
       '<div class="mini"><h4>Hypopharynx (laryngopharynx)</h4><ul><li>Continues from the oropharynx; lies behind the larynx and leads into the esophagus</li><li>From the {{pharyngoepiglottic fold}} to the cervical esophagus at the {{inferior aspect of the cricoid}}</li><li>{{Pyriform sinuses}}: the {{anterolateral}} recesses of the hypopharynx, one on each side of the larynx</li></ul></div></div>' +
@@ -60,7 +58,6 @@ CVS.add({ id: 'L', short: 'Pharynx & larynx', title: 'Pharynx and larynx', kind:
   { t: 'tf', id: 'L10', src: 'H&N p.53', core: true,
     q: 'The hypopharynx extends from the soft palate down to the level of the hyoid bone.', a: false,
     ex: 'False. Soft palate to the valleculae at the hyoid is the oropharynx. The hypopharynx runs from the pharyngoepiglottic fold to the inferior aspect of the cricoid.' },
-
   { t: 'c', id: 'L-C4', title: 'Larynx: supraglottis, glottis, subglottis', src: 'H&N p.54, 56–57',
     html: '<p>The larynx runs from the {{epiglottis}} to the {{inferior aspect of the cricoid cartilage}} and continues below as the {{trachea}}.</p>' +
       '<div class="tblwrap"><table class="tbl"><thead><tr><th>Level</th><th>Extent</th><th>On CT</th></tr></thead><tbody>' +
@@ -92,7 +89,6 @@ CVS.add({ id: 'L', short: 'Pharynx & larynx', title: 'Pharynx and larynx', kind:
     q: 'The subglottis extends from:',
     o: ['Just below the vocal cords to the trachea', 'The epiglottis to the arytenoid cartilage', 'The vallecula to the epiglottis', 'The pharyngoepiglottic fold to the cricoid', 'The soft palate to the hyoid'], a: 0,
     ex: 'Subglottis: from just beneath the vocal cords to the trachea. Epiglottis to arytenoid is the supraglottis; pharyngoepiglottic fold to cricoid is the hypopharynx.' },
-
   { t: 'c', id: 'L-C5', title: 'The lateral soft-tissue neck radiograph', src: 'H&N p.55',
     html: '<div class="two">' + CVS.fig('hn-neck-lat', 'Lateral soft-tissue radiograph of the neck with labels.', 'hn', 55, 'tall') +
       '<div class="stack"><p>Air is black, so the airway shows as a dark column in front of the cervical spine. Read it from top to bottom:</p>' +

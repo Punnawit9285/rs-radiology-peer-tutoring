@@ -5,7 +5,7 @@
 window.CVS = {
   sections: [],
   dims: {},
-  SRC: { hn: 'H&amp;N radiology handout', rs: 'RS radiology handout' },
+  SRC: { hn: 'H&amp;N radiology handout', rs: 'RS radiology handout', ac79: 'AC79 RS I MCQ key (PS81 edit)', ac80: 'AC80 RS I MCQ recall' },
   cloze: function (h) { return String(h).replace(/\{\{([\s\S]*?)\}\}/g, '<span class="cz">$1</span>'); },
   fig: function (name, cap, pdf, page, cls) {
     var d = this.dims[name];

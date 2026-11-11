@@ -24,24 +24,11 @@ window.TUTOR_SCRIPT.sec.H = { part: "Video 1", time: "12&#8211;15 min",
   ],
   say: {
     "H-C1": "Plain films are cheap and quick but flat, so every bone along the beam piles up. Know the four jobs they still do and their two weak spots.",
-    "H1": "Four jobs are left for plain film: fracture, foreign body, sinusitis screening and metabolic bone. Everything soft goes to MRI.",
     "H-C2": "Three angled views, three angles, three targets: Caldwell fifteen, Towne thirty, Waters forty-five. Learn them as one line.",
-    "H5": "Look at what sits in the middle: the back of the skull and the foramen magnum. That is Towne, for the occiput and the mandible.",
-    "H6": "Chin up, maxillary sinuses wide open under the orbits: Waters, the face-and-sinus view.",
-    "H7": "Frontal sinus plus orbit equals Caldwell.",
-    "H9": "True: Waters is the face-and-sinus view.",
     "H-C3": "CT cuts the head into slices, so nothing hides behind anything else. It owns bone and air: orbit walls, skull base, temporal bone, sinuses.",
-    "H11": "Sinuses and nasal cavity are thin bone against air, the perfect CT job.",
-    "H14": "Bony walls of the orbit means CT in a bone window.",
     "H-C4": "One CT, many looks: the window changes the grey scale, MPR changes the plane, VRT gives you 3-D. None of them needs a new scan.",
-    "H15": "Brain flat grey, bone detail sharp: that is a bone window.",
-    "H17": "Coronal sinus images come from re-slicing the axial stack: MPR.",
     "H-C5": "MRI has no X-rays and the best soft-tissue contrast, so it wins for the optic pathway. The price is time, cost and three contraindications.",
-    "H20": "Pacemaker, ear implant, claustrophobia: those three keep a patient out of the magnet.",
-    "H22": "True: the optic pathway is an MRI question.",
     "H-C6": "Two questions pick the modality: is the target bone or soft tissue, and can this patient go into a magnet?",
-    "H24": "Bony orbit plus a pacemaker: CT, no debate.",
-    "H25": "Only the optic-pathway pairing is right; every bony target here belongs to CT."
   } };
 
 /* ---------- S ---------- */
@@ -57,18 +44,9 @@ window.TUTOR_SCRIPT.sec.S = { part: "Video 1", time: "12&#8211;15 min",
   ],
   say: {
     "S-C1": "Two lists: six bones around the brain, eight in the face. The trap is that ethmoid and sphenoid count as cranial even though they sit deep behind the face.",
-    "S1": "Vomer is the lower nasal septum, a facial bone; the other four are cranial.",
     "S-C2": "Read the AP film in rows: midline, inside the orbit, below the orbit, the edges, then the vault.",
-    "S5": "Small midline spike between the orbits: crista galli.",
-    "S7": "Lateral edge of the skull base at that level: the mastoid process.",
     "S-C3": "On the lateral film, find the four sinuses front to back, then the sella and clivus in the middle, then the mastoid behind.",
-    "S9": "Cup on top of the sphenoid: sella turcica.",
-    "S10": "Air space under the sella: sphenoid sinus.",
-    "S12": "The flat plate between nose and mouth is the palatine process of the maxilla, the hard palate.",
-    "S14": "True: the clivus slopes down from the dorsum sellae to the foramen magnum.",
     "S-C4": "Zoom into the sella: front edge, pit, back wall, two clinoids on top, sinus underneath.",
-    "S15": "The back wall is the dorsum sellae.",
-    "S16": "Under the sella floor sits the sphenoid sinus."
   } };
 
 /* ---------- O ---------- */
@@ -84,21 +62,11 @@ window.TUTOR_SCRIPT.sec.O = { part: "Video 2", time: "15&#8211;18 min",
   ],
   say: {
     "O-C1": "Picture a cone pointing back and in, with three neighbours sharing its thin walls: brain above, ethmoid and nose medially, maxillary sinus below.",
-    "O1": "Below the orbit is the maxillary sinus.",
     "O-C2": "One table to learn: each wall, the main bone, the helpers. Watch the sphenoid: lesser wing at the roof and apex, greater wing on the lateral wall.",
-    "O4": "Lamina papyracea is the ethmoid.",
-    "O5": "Floor is mainly maxilla, which is why it breaks into the maxillary sinus.",
-    "O7": "Optic canal sits in the lesser wing.",
     "O-C3": "A ball bigger than the rim pushes the eye back, the pressure has to go somewhere, and the thin floor gives way.",
-    "O9": "Floor into the maxillary sinus, with fat and inferior rectus falling through.",
-    "O10": "True: lamina papyracea means paper layer, the thin medial wall.",
     "O-C4": "On the frontal film, read rim, then the two sphenoid wings inside the circle, then the thin medial wall.",
-    "O12": "The dark gap between the two wings is the superior orbital fissure.",
     "O-C5": "Read axial CT in three levels: top, optic nerve level, bottom. Each level has its own muscles and canals.",
-    "O14": "At the optic nerve level, medial and lateral recti run along the walls.",
-    "O17": "Optic nerve exits through the optic canal.",
     "O-C6": "Coronal behind the globe is a clock face of muscles around the nerve; find the superior oblique at the upper inner corner.",
-    "O18": "The centre of the muscle ring is the optic nerve sheath complex."
   } };
 
 /* ---------- N ---------- */
@@ -114,21 +82,11 @@ window.TUTOR_SCRIPT.sec.N = { part: "Video 2", time: "15&#8211;18 min",
   ],
   say: {
     "N-C1": "The petrous bone is the stone of the skull, and it houses the middle ear, the inner ear and the canal for the nerves.",
-    "N1": "The sphenoid sinus is the odd one out: it lives in the sphenoid, not the temporal bone.",
     "N-C2": "Follow the sound on CT: outer canal, middle ear with the malleus, cochlea in front, semicircular canals behind, then the internal canal going medially.",
-    "N4": "The coil at the front of the inner ear is the cochlea.",
-    "N5": "The canal heading medially toward the brainstem is the internal auditory canal.",
     "N-C3": "The nasal cavity is a box: palate floor, skull-base roof, septum in the middle, nostrils in front and choanae behind.",
-    "N9": "Back door of the nose: the choanae.",
     "N-C4": "Each sinus has a home on the film and a view that clears it: frontal and ethmoid on Caldwell, maxillary on Waters, sphenoid on the lateral.",
-    "N12": "Maxillary sinuses: Waters.",
-    "N13": "Caldwell labels the frontal, ethmoid and maxillary sinuses.",
     "N-C5": "One small channel, three sinuses: the ostiomeatal unit drains frontal, anterior ethmoid and maxillary.",
-    "N15": "Frontal, anterior ethmoid, maxillary: the OMU three.",
-    "N16": "The curved slit under the bulla is the hiatus semilunaris.",
     "N-C6": "On axial CT walk down the face: frontal on top, ethmoid between the eyes with the sphenoid behind, maxillary at the bottom.",
-    "N20": "Midline behind the ethmoid cells: sphenoid sinus.",
-    "N22": "True: the sphenoid sinus sits between the sella above and the nasopharynx below."
   } };
 
 /* ---------- L ---------- */
@@ -144,20 +102,10 @@ window.TUTOR_SCRIPT.sec.L = { part: "Video 3", time: "12&#8211;15 min",
   ],
   say: {
     "L-C1": "One tube, three names, decided by what sits in front: nose, mouth, larynx. It ends at the cricoid.",
-    "L1": "Pharynx stops at the lower border of the cricoid.",
-    "L2": "Oropharynx runs from the soft palate to the valleculae at the hyoid.",
     "L-C2": "On the side wall of the nasopharynx read opening, bump, pocket: Eustachian tube, torus, Rosenmüller.",
-    "L4": "The pocket behind the bump is the fossa of Rosenmüller.",
-    "L5": "The bump between the opening and the pocket is the torus tubarius.",
     "L-C3": "The oropharynx ends at the vallecula; the hypopharynx sits behind the larynx and owns the pyriform sinuses.",
-    "L8": "Pyriform sinuses belong to the hypopharynx.",
-    "L10": "False: soft palate to the hyoid is the oropharynx; the hypopharynx starts at the pharyngoepiglottic fold.",
     "L-C4": "Split the larynx at the vocal folds: above is supraglottis, the folds are the glottis, below is subglottis.",
-    "L11": "Vocal folds and the gap between them: the glottis.",
-    "L12": "The thin air slit between the two folds is the ventricle.",
-    "L15": "True: false fold, ventricle, true fold.",
     "L-C5": "On the lateral neck film, follow the black air column from top to bottom and name each stop.",
-    "L17": "The curved leaf just under the vallecula is the epiglottis."
   } };
 
 /* ---------- C ---------- */
@@ -173,19 +121,10 @@ window.TUTOR_SCRIPT.sec.C = { part: "Video 3", time: "12&#8211;15 min",
   ],
   say: {
     "C-C1": "A radiograph only knows five densities. Learn the order from white to black, because every sign later depends on two densities meeting.",
-    "C1": "Metal, bone, soft tissue, fat, air: white to black.",
-    "C3": "First test for the chest is the plain film.",
     "C-C2": "CT gives slices, and the window decides what you see: lung, bone or mediastinum. Range is level plus or minus half the width.",
-    "C4": "Minus five hundred, fifteen hundred: lung window.",
-    "C6": "Only the top image shows lung detail: that is the lung window.",
-    "C7": "CT is not the first test for everything; the plain film is.",
     "C-C3": "MRI is the soft-tissue tool of the chest; it struggles with the air-filled lung itself.",
-    "C8": "False: MRI is limited for the lung parenchyma.",
     "C-C4": "PA means the beam enters from behind. Every step of the positioning either clears something off the lungs or fills them with air.",
-    "C10": "Upright, chest on the plate, deep breath in: that is the PA.",
     "C-C5": "Lateral to see what hides behind the heart; AP when the patient cannot stand, remembering the heart will look bigger.",
-    "C12": "True: right to left, arms up.",
-    "C13": "Bedside film means AP, and AP magnifies the heart."
   } };
 
 /* ---------- A ---------- */
@@ -201,20 +140,10 @@ window.TUTOR_SCRIPT.sec.A = { part: "Video 4", time: "15&#8211;18 min",
   ],
   say: {
     "A-C1": "The trachea is a midline tube with a few numbers worth knowing: 2 cm below the cords, 12 cm long, 16 to 20 C-shaped rings open at the back.",
-    "A1": "From just below the vocal cords to the carina.",
     "A-C2": "The two main bronchi are not twins: the right is short and steep, the left long and flat.",
-    "A5": "Right is shorter and more vertical.",
-    "A6": "After the upper lobe branch, the right continues as the bronchus intermedius.",
-    "A7": "The short branch going up and out on the right is the right upper lobar bronchus.",
     "A-C3": "Three lobes on the right, two on the left, and on a PA film they sit on top of each other. That overlap is the whole reason we take a lateral.",
-    "A10": "Right three lobes and ten segments, left two lobes and eight.",
-    "A11": "Right lower zone on PA can be middle lobe in front or lower lobe behind.",
-    "A12": "True: the middle lobe is the front-and-bottom wedge on the lateral.",
     "A-C4": "On CT the lobes stop overlapping: lower lobes at the back on the diaphragm, middle lobe and lingula at the front on the heart.",
-    "A14": "Middle lobe hugs the right heart border.",
     "A-C5": "Three fissures: two on the right, one on the left. Only the minor fissure shows on the PA film.",
-    "A15": "Minor fissure: upper lobe above, middle lobe below.",
-    "A17": "On a PA film you normally see only the right minor fissure."
   } };
 
 /* ---------- P ---------- */
@@ -230,21 +159,11 @@ window.TUTOR_SCRIPT.sec.P = { part: "Video 4", time: "15&#8211;18 min",
   ],
   say: {
     "P-C1": "Every border on a chest film is air against soft tissue. Lose the air and you lose the border, and that tells you where the disease sits.",
-    "P1": "Two soft-tissue densities touching merge into one: that is the silhouette sign.",
-    "P2": "True: the lower lobe is behind, so it overlaps the heart border without erasing it.",
     "P-C2": "Learn the map as three rows: upper lobes own the top of the mediastinum, middle lobe and lingula own the heart, lower lobes own the diaphragm.",
-    "P3": "Right heart border gone: right middle lobe.",
-    "P4": "Left hemidiaphragm gone, heart border sharp: left lower lobe.",
     "P-C3": "Three real pneumonias: upper lobe hides the paratracheal stripe, middle lobe hides the heart, lower lobe hides the diaphragm.",
-    "P9": "Heart border lost and a wedge in front on the lateral: middle lobe.",
-    "P10": "Behind the heart, diaphragm gone: left lower lobe.",
     "P-C4": "Two layers of pleura with a space you cannot normally see. Put fluid or air into it and suddenly you can.",
-    "P12": "A potential space between parietal and visceral pleura.",
     "P-C5": "Fluid falls and blunts the angle; air rises and shows you the pleural line.",
-    "P14": "Blunted right costophrenic angle: pleural effusion.",
-    "P15": "Pleural line with no markings outside it: pneumothorax.",
     "P-C6": "Calcified parietal pleura means asbestos until proven otherwise.",
-    "P17": "Shipyard worker with calcified pleura: asbestos."
   } };
 
 /* ---------- M ---------- */
@@ -260,20 +179,127 @@ window.TUTOR_SCRIPT.sec.M = { part: "Video 5", time: "20&#8211;25 min",
   ],
   say: {
     "M-C1": "The hilum is where everything enters the lung: artery, vein, bronchus and nodes. Left sits higher.",
-    "M1": "Thoracic duct is the odd one out: it lives in the posterior mediastinum.",
-    "M2": "True: the left hilum is higher.",
     "M-C2": "The mediastinum is the box between the lungs: sternum to spine, inlet to diaphragm, split at the sternal angle in the anatomic scheme.",
-    "M3": "Ludwig's plane splits superior from inferior.",
     "M-C3": "Radiologists use three compartments: in front of the heart, the heart and airway, and behind the heart beside the spine.",
-    "M5": "Thymus is anterior.",
-    "M6": "Trachea and main bronchi count as middle in this scheme.",
-    "M8": "The round vessel to the right of the ascending aorta is the SVC.",
-    "M10": "True: the posterior tracheal wall is the back line of the middle compartment.",
     "M-C4": "Name the compartment first, then the list for that compartment is your differential.",
-    "M11": "Thymoma is anterior.",
-    "M12": "Beside the spine in a young adult: neurogenic tumor.",
     "M-C5": "Three holes at three levels: eight, ten, twelve; IVC, esophagus, aorta.",
-    "M14": "T8 is the caval opening.",
-    "M18": "A round shadow behind the heart in someone with reflux: hiatal hernia.",
     "M-C6": "The chest wall: three muscle layers, and the vein, artery and nerve hiding under each rib."
   } };
+
+/* ========== Questions: SAY lines for core questions (AC79–AC81 past papers) ========== */
+Object.assign(window.TUTOR_SCRIPT.sec.H.say, {
+  "H1": "Four jobs are left for plain film: fracture, foreign body, sinusitis screening and metabolic bone. Everything soft goes to MRI.",
+  "H5": "Look at what sits in the middle: the back of the skull and the foramen magnum. That is Towne, for the occiput and the mandible.",
+  "H6": "Chin up, maxillary sinuses wide open under the orbits: Waters, the face-and-sinus view.",
+  "H7": "Frontal sinus plus orbit equals Caldwell.",
+  "H9": "True: Waters is the face-and-sinus view.",
+  "H11": "Sinuses and nasal cavity are thin bone against air, the perfect CT job.",
+  "H14": "Bony walls of the orbit means CT in a bone window.",
+  "H15": "Brain flat grey, bone detail sharp: that is a bone window.",
+  "H17": "Coronal sinus images come from re-slicing the axial stack: MPR.",
+  "H20": "Pacemaker, ear implant, claustrophobia: those three keep a patient out of the magnet.",
+  "H22": "True: the optic pathway is an MRI question.",
+  "H24": "Bony orbit plus a pacemaker: CT, no debate.",
+  "H25": "Only the optic-pathway pairing is right; every bony target here belongs to CT."
+});
+Object.assign(window.TUTOR_SCRIPT.sec.S.say, {
+  "S1": "Vomer is the lower nasal septum, a facial bone; the other four are cranial.",
+  "S5": "Small midline spike between the orbits: crista galli.",
+  "S7": "Lateral edge of the skull base at that level: the mastoid process.",
+  "S9": "Cup on top of the sphenoid: sella turcica.",
+  "S10": "Air space under the sella: sphenoid sinus.",
+  "S12": "The flat plate between nose and mouth is the palatine process of the maxilla, the hard palate.",
+  "S14": "True: the clivus slopes down from the dorsum sellae to the foramen magnum.",
+  "S15": "The back wall is the dorsum sellae.",
+  "S16": "Under the sella floor sits the sphenoid sinus."
+});
+Object.assign(window.TUTOR_SCRIPT.sec.O.say, {
+  "O1": "Below the orbit is the maxillary sinus.",
+  "O4": "Lamina papyracea is the ethmoid.",
+  "O5": "Floor is mainly maxilla, which is why it breaks into the maxillary sinus.",
+  "O7": "Optic canal sits in the lesser wing.",
+  "O9": "Floor into the maxillary sinus, with fat and inferior rectus falling through.",
+  "O10": "True: lamina papyracea means paper layer, the thin medial wall.",
+  "O12": "The dark gap between the two wings is the superior orbital fissure.",
+  "O14": "At the optic nerve level, medial and lateral recti run along the walls.",
+  "O17": "Optic nerve exits through the optic canal.",
+  "O18": "The centre of the muscle ring is the optic nerve sheath complex."
+});
+Object.assign(window.TUTOR_SCRIPT.sec.N.say, {
+  "N1": "The sphenoid sinus is the odd one out: it lives in the sphenoid, not the temporal bone.",
+  "N4": "The coil at the front of the inner ear is the cochlea.",
+  "N5": "The canal heading medially toward the brainstem is the internal auditory canal.",
+  "N9": "Back door of the nose: the choanae.",
+  "N12": "Maxillary sinuses: Waters.",
+  "N13": "Caldwell labels the frontal, ethmoid and maxillary sinuses.",
+  "N15": "Frontal, anterior ethmoid, maxillary: the OMU three.",
+  "N16": "The curved slit under the bulla is the hiatus semilunaris.",
+  "N20": "Opaque frontal sinus means its drain, the hiatus semilunaris, is blocked.",
+  "N21": "Midline behind the ethmoid cells: sphenoid sinus.",
+  "N23": "True: the sphenoid sinus sits between the sella above and the nasopharynx below."
+});
+Object.assign(window.TUTOR_SCRIPT.sec.L.say, {
+  "L1": "Pharynx stops at the lower border of the cricoid.",
+  "L2": "Oropharynx runs from the soft palate to the valleculae at the hyoid.",
+  "L4": "The pocket behind the bump is the fossa of Rosenmüller.",
+  "L5": "The bump between the opening and the pocket is the torus tubarius.",
+  "L8": "Pyriform sinuses belong to the hypopharynx.",
+  "L10": "False: soft palate to the hyoid is the oropharynx; the hypopharynx starts at the pharyngoepiglottic fold.",
+  "L11": "Vocal folds and the gap between them: the glottis.",
+  "L12": "The thin air slit between the two folds is the ventricle.",
+  "L15": "True: false fold, ventricle, true fold.",
+  "L17": "The curved leaf just under the vallecula is the epiglottis."
+});
+Object.assign(window.TUTOR_SCRIPT.sec.C.say, {
+  "C1": "Metal, bone, soft tissue, fat, air: white to black.",
+  "C3": "First test for the chest is the plain film.",
+  "C4": "Bone beats soft tissue beats fat beats air: the manubrium is densest.",
+  "C6": "Minus five hundred, fifteen hundred: lung window.",
+  "C8": "Only the top image shows lung detail: that is the lung window.",
+  "C9": "CT is not the first test for everything; the plain film is.",
+  "C10": "False: MRI is limited for the lung parenchyma.",
+  "C12": "Upright, chest on the plate, deep breath in: that is the PA.",
+  "C14": "True: right to left, arms up.",
+  "C15": "Bedside film means AP, and AP magnifies the heart."
+});
+Object.assign(window.TUTOR_SCRIPT.sec.A.say, {
+  "A1": "From just below the vocal cords to the carina.",
+  "A5": "Right is shorter and more vertical.",
+  "A6": "After the upper lobe branch, the right continues as the bronchus intermedius.",
+  "A7": "The short branch going up and out on the right is the right upper lobar bronchus.",
+  "A10": "Right three lobes and ten segments, left two lobes and eight.",
+  "A11": "Right lower zone on PA can be middle lobe in front or lower lobe behind.",
+  "A12": "True: the middle lobe is the front-and-bottom wedge on the lateral.",
+  "A14": "Middle lobe hugs the right heart border.",
+  "A15": "Minor fissure: upper lobe above, middle lobe below.",
+  "A17": "On a PA film you normally see only the right minor fissure."
+});
+Object.assign(window.TUTOR_SCRIPT.sec.P.say, {
+  "P1": "Two soft-tissue densities touching merge into one: that is the silhouette sign.",
+  "P2": "True: the lower lobe is behind, so it overlaps the heart border without erasing it.",
+  "P3": "Right heart border gone: right middle lobe.",
+  "P4": "Left hemidiaphragm gone, heart border sharp: left lower lobe.",
+  "P9": "Lingula erases the left heart border.",
+  "P10": "Heart border gone, diaphragm still there: lingula.",
+  "P11": "Heart border lost and a wedge in front on the lateral: middle lobe.",
+  "P12": "Behind the heart, diaphragm gone: left lower lobe.",
+  "P14": "A potential space between parietal and visceral pleura.",
+  "P16": "Blunted right costophrenic angle: pleural effusion.",
+  "P17": "Pleural line with no markings outside it: pneumothorax.",
+  "P19": "No lung markings at the right edge after a stab: pneumothorax.",
+  "P22": "Shipyard worker with calcified pleura: asbestos."
+});
+Object.assign(window.TUTOR_SCRIPT.sec.M.say, {
+  "M1": "Thoracic duct is the odd one out: it lives in the posterior mediastinum.",
+  "M2": "True: the left hilum is higher.",
+  "M3": "Ludwig's plane splits superior from inferior.",
+  "M5": "Thymus is anterior.",
+  "M6": "Trachea and main bronchi count as middle in this scheme.",
+  "M8": "The round vessel to the right of the ascending aorta is the SVC.",
+  "M10": "True: the posterior tracheal wall is the back line of the middle compartment.",
+  "M11": "Thymoma is anterior.",
+  "M12": "Beside the spine in a young adult: neurogenic tumor.",
+  "M14": "Sudden chest pain and a posterior mass: think descending aorta.",
+  "M15": "T8 is the caval opening.",
+  "M19": "A round shadow behind the heart in someone with reflux: hiatal hernia."
+});
